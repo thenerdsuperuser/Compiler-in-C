@@ -12,7 +12,7 @@ To Run Program:</br>
 1) Place all files in the same directory.</br>
 2) lex lexer.l</br>
 3) yacc -d -v parser.y</br>
-ss4) gcc y.tab.c -ll </br>
+4) gcc y.tab.c -ll </br>
 5) ./a.out<input.txt</br>
 
 Here lexer.l is the lexical analyzer, yacc -d -v parser.y runs parser.y written in YACC and -d creates y.tab.h and -v creates y.output (debugger for parser).
